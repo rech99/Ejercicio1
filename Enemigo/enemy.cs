@@ -9,8 +9,8 @@ namespace Enemigo
     class enemy
     {
 
-        public int posx;
-        public int posy;
+        public int posx { get; set; }
+        public int posy { get; set; }
         private int _score;
         public int score
             
@@ -36,9 +36,20 @@ namespace Enemigo
         }
         
         
-         
+         public void mover()
+        {
+
+        }
         
-        
+        public void disparar ()
+        {
+
+        }
+
+        public void explotar()
+        {
+             
+        }
     }
 
 
